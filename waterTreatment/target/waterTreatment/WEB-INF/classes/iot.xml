@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iot>
+	<stations>
+		<station id="1" latitude="38.492582" longitude="97.549942"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="1" type="ph" upThresholdWarning="8.0"
+					downThresholdWarning="4" upThresholdError="10.0"
+					downThresholdError="3.0" />
+				<sensor id="2" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="3" type="flow" upThresholdWarning="450"
+					downThresholdWarning="6" upThresholdError="550" downThresholdError="0" />
+				<sensor id="4" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="-1.8" upThresholdError="4.5"
+					downThresholdError="-1.0" />
+			</sensors>
+		</station>
+		<station id="2" latitude="38.454060" longitude="97.553236"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="5" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="6" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="7" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="8" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="3" latitude="38.419265" longitude="97.564472"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="9" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="10" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="11" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="12" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="4" latitude="38.380110" longitude="97.654222"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="13" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="14" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="15" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="16" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="5" latitude="38.309292" longitude="97.738654"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="17" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="18" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="19" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="20" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<!--  0x00,0x13,0xa2,0x00,0x40,0xa1,0x94,0xde -->
+		<station id="6" latitude="38.217819" longitude="97.767189"
+			sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xc8,0xc9,0x55">
+			<sensors>
+				<sensor id="21" type="ph" upThresholdWarning="8.5"
+					downThresholdWarning="1.5" upThresholdError="10.0"
+					downThresholdError="1.0" />
+				<sensor id="22" type="temperature" upThresholdWarning="27"
+					downThresholdWarning="15" upThresholdError="30" downThresholdError="2.0" />
+				<sensor id="23" type="flow" upThresholdWarning="450"
+					downThresholdWarning="-6" upThresholdError="1500" downThresholdError="-10" />
+				<sensor id="24" type="level" upThresholdWarning="4.3"
+					downThresholdWarning="-1.8" upThresholdError="5.0"
+					downThresholdError="-1.0" />
+			</sensors>
+		</station>
+		<station id="7" latitude="38.216698" longitude="97.644935"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="25" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="26" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="27" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="28" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="8" latitude="38.225722" longitude="97.509877"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="29" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="30" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="31" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="32" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="9" latitude="38.305303" longitude="97.405726"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="33" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="34" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="35" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="36" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="10" latitude="38.382703" longitude="97.454217"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="37" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="38" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="39" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="40" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="11" latitude="38.399234" longitude="97.409640"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="41" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="42" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="43" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="44" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+		<station id="12" latitude="38.410083" longitude="97.362801"
+			sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xa1,0x94,0xde">
+			<sensors>
+				<sensor id="45" type="ph" upThresholdWarning="10.5"
+					downThresholdWarning="4.0" upThresholdError="12.0"
+					downThresholdError="3.0" />
+				<sensor id="46" type="temperature" upThresholdWarning="27"
+					downThresholdWarning="9.0" upThresholdError="30" downThresholdError="2.0" />
+				<sensor id="47" type="flow" upThresholdWarning="450"
+					downThresholdWarning="-6" upThresholdError="1500" downThresholdError="-10" />
+				<sensor id="48" type="level" upThresholdWarning="4.3"
+					downThresholdWarning="-1.8" upThresholdError="5.0"
+					downThresholdError="-1.0" />
+			</sensors>
+		</station>
+		<station id="13" latitude="38.411212" longitude="97.309550"
+			sourceAddress="dummy">
+			<sensors>
+				<sensor id="49" type="ph" upThresholdWarning="7.5"
+					downThresholdWarning="6.9" upThresholdError="7.8"
+					downThresholdError="6.7" />
+				<sensor id="50" type="temperature" upThresholdWarning="30"
+					downThresholdWarning="15" upThresholdError="40" downThresholdError="10" />
+				<sensor id="51" type="flow" upThresholdWarning="60"
+					downThresholdWarning="6" upThresholdError="200" downThresholdError="0" />
+				<sensor id="52" type="level" upThresholdWarning="3.5"
+					downThresholdWarning="1.8" upThresholdError="4.5"
+					downThresholdError="1.0" />
+			</sensors>
+		</station>
+	</stations>
+	<sluices>
+		<sluice id="1" latitude="38.401798" longitude="97.574211"
+			sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xa1,0x94,0xde" />
+		<sluice id="2" latitude="38.203923" longitude="97.781647"
+			sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xa1,0x94,0xde" />
+		<sluice id="3" latitude="38.202014" longitude="97.652712"
+			sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xa1,0x94,0xde" />
+		<sluice id="4" latitude="38.376246" longitude="97.468591"
+			sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xa1,0x94,0xde" />
+	</sluices>
+	<servers>
+		<server type="gateway" uri="ws://localhost:8080/waterTreatmentServer/websocket/server/gateway" />
+		<server type="alarmagent" uri="ws://localhost:8080/waterTreatmentServer/websocket/server/alarmagent" />
+		<server type="sensordata" uri="ws://localhost:8080/waterTreatmentServer/websocket/server/sensordata" />
+	</servers>
+</iot>

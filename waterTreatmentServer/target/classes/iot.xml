@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iot>
+<stations>
+	<station id="1" latitude="38.534687" longitude="97.472723" sourceAddress="dummy">  
+		<sensors>
+		   <sensor id="1" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="2" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="3" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="4" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>
+	</station>
+	<station id="2" latitude="38.506863" longitude="97.544066" sourceAddress="dummy">  
+		<sensors>
+		   <sensor id="5" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="6" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="7" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="8" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>
+	</station>
+	<station id="3" latitude="38.462459" longitude="97.551164" sourceAddress="dummy">    
+		<sensors>
+		   <sensor id="9" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="10" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="11" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="12" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>
+	</station>
+	<station id="4" latitude="38.405090" longitude="97.556321" sourceAddress="dummy">    
+		<sensors>
+		   <sensor id="13" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="14" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="15" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="16" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors> 
+	</station>
+	<station id="5" latitude="38.426785" longitude="97.281678" sourceAddress="dummy">   
+		<sensors>
+		   <sensor id="17" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="18" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="19" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="20" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors> 
+	</station>
+	<station id="6" latitude="38.412231" longitude="97.338288" sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xc8,0xc9,0x55">     
+        <sensors>
+		   <sensor id="21" type="ph" upThresholdWarning="8.0" downThresholdWarning="4" upThresholdError="10.0" downThresholdError="3.0"/>
+		   <sensor id="22" type="temperature" upThresholdWarning="200" downThresholdWarning="50" upThresholdError="400" downThresholdError="20"/>
+		   <sensor id="23" type="flow" upThresholdWarning="450" downThresholdWarning="6" upThresholdError="550" downThresholdError="0"/>
+	       <sensor id="24" type="level" upThresholdWarning="3.5" downThresholdWarning="-1.8" upThresholdError="4.5" downThresholdError="-1.0"/>
+		</sensors> 
+	</station>
+	<station id="7" latitude="38.402369" longitude="97.398651" sourceAddress="dummy">    
+		<sensors>
+		   <sensor id="25" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="26" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="27" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="28" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors> 
+	</station>
+	<station id="8" latitude="38.382170" longitude="97.468343" sourceAddress="dummy">     
+		<sensors>
+		   <sensor id="29" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="30" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="31" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="32" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors> 
+	</station>
+	<station id="9" latitude="38.381591" longitude="97.643757" sourceAddress="dummy">     
+		<sensors>
+		   <sensor id="33" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="34" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="35" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="36" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors> 
+	</station>
+	<station id="10" latitude="38.305620" longitude="97.737888" sourceAddress="dummy">     
+		<sensors>
+		   <sensor id="37" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="38" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="39" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="40" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>  
+	</station>
+	<station id="11" latitude="38.204819" longitude="97.736921" sourceAddress="0x00,0x13,0xa2,0x00,0x40,0xa1,0x94,0xde">     
+		<sensors>
+		   <sensor id="41" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="42" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="43" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="44" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>
+	</station>
+	<station id="12" latitude="38.205471" longitude="97.557524" sourceAddress="dummy">     
+		<sensors>
+		   <sensor id="45" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="46" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="47" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="48" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>
+	</station>
+	<station id="13" latitude="38.257547" longitude="97.416356" sourceAddress="dummy">     
+		<sensors>
+		   <sensor id="49" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="50" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="51" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="52" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>
+	</station>
+	<station id="14" latitude="38.337902" longitude="97.424851" sourceAddress="dummy">     
+		<sensors>
+		   <sensor id="53" type="ph" upThresholdWarning="7.5" downThresholdWarning="6.9" upThresholdError="7.8" downThresholdError="6.7"/>
+		   <sensor id="54" type="temperature" upThresholdWarning="30" downThresholdWarning="15" upThresholdError="40" downThresholdError="10"/>
+		   <sensor id="55" type="flow" upThresholdWarning="60" downThresholdWarning="6" upThresholdError="200" downThresholdError="0"/>
+	       <sensor id="56" type="level" upThresholdWarning="3.5" downThresholdWarning="1.8" upThresholdError="4.5" downThresholdError="1.0"/>
+		</sensors>
+	</station>
+</stations>
+<sluices>
+    <sluice id="1" latitude="38.392170" longitude="97.596321" sourceAddress="dummy"/>
+    <sluice id="2" latitude="38.372170" longitude="97.498343" sourceAddress="dummy"/>
+    <sluice id="3" latitude="38.185471" longitude="97.663757" sourceAddress="dummy"/>
+    <sluice id="4" latitude="38.194819" longitude="97.756921" sourceAddress="dummy"/>
+</sluices>
+</iot>
