@@ -1,0 +1,6 @@
+com\sap\cisp\wts\util\CookieFilter.class
+com\sap\cisp\wts\websocket\server\IOTAlarmAgentAnnotation.class
+com\sap\cisp\wts\util\HTMLFilter.class
+com\sap\cisp\wts\websocket\server\IOTSensorDataAnnotation.class
+com\sap\cisp\wts\websocket\server\IOTAlarmAgentAnnotation$1.class
+com\sap\cisp\wts\websocket\server\IOTSensorDataAnnotation$1.class
